@@ -1,0 +1,117 @@
+.wrapper {
+    background-color: #3B4664;
+    /* width: 400px;
+    height: 400px;
+    margin:0px auto; */
+    max-width: 1468px;
+    max-height: 998px;
+    top: -218px;
+    left: 5205px;
+    padding: 148px 466px 148px 466px;
+    gap: 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.input_wrapper {
+    text-align: center;
+}
+
+#input_bar {
+    font-family: "Segoe UI";
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 73.15px;
+    text-align: right;
+    width: 536px;
+    height: 142.73px;
+    top: 194px;
+    left: 466px;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    letter-spacing: 5px;
+
+}
+
+.button_wrapper {
+    width: 536px;
+    max-height: 487px;
+    top: 363px;
+    left: 466px;
+    gap: 10px;
+    opacity: 0px;
+    background-color: #252D44;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 30px;
+}
+
+.button_container {
+    width: 466px;
+    max-height: 392px;
+    top: 48px;
+    left: 35px;
+    gap: 23px;
+    opacity: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-gap: 22px;
+    grid-row-gap: 20px;
+
+
+}
+
+.flex-item {
+    height: 60px;
+    border-radius: 12px;
+    background-color: #EAE3DB;
+    justify-content: center;
+    /* Center items horizontally */
+    align-items: center;
+    border: none;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.31px;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 36.31px;
+    color: #3B4664;
+
+
+}
+
+#btn_del {
+    background: #647299;
+    color: #fff;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29.05px;
+}
+
+#btn_reset {
+    grid-column: span 2;
+    background-color: #647299;
+    color: #FFFFFF;
+    font-family: "Inter";
+    font-size: 23.05px;
+    font-weight: 800;
+    line-height: 27.89px;
+}
+
+#btn_equal {
+    grid-column: span 2;
+    background-color: #D13F30;
+    color: #FFFFFF;
+
+}

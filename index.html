@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="input_wrapper">
+            <input id="input_bar" type="text" value="1234">
+        </div>
+        <div class="button_wrapper">
+            <div class="button_container">
+                <button id="btn_7" class="flex-item" type="button" onclick="insert_value(7)">7</button>
+                <button id="btn_8" class="flex-item" type="button" onclick="insert_value(8)">8</button>
+                <button id="btn_9" class="flex-item" type="button" onclick="insert_value(9)">9</button>
+                <button id="btn_del" class="flex-item" type="button" onclick="del()">DEL</button>
+                <button id="btn_4" class="flex-item" type="button" onclick="insert_value(4)">4</button>
+                <button id="btn_5" class="flex-item" type="button" onclick="insert_value(5)">5</button>
+                <button id="btn_6" class="flex-item" type="button" onclick="insert_value(6)">6</button>
+                <button id="btn_plus" class="flex-item" type="button" onclick="insert_value('+')">+</button>
+                <button id="btn_1" class="flex-item" type="button" onclick="insert_value(1)">1</button>
+                <button id="btn_2" class="flex-item" type="button" onclick="insert_value(2)">2</button>
+                <button id="btn_3" class="flex-item" type="button" onclick="insert_value(3)">3</button>
+                <button id="btn_minus" class="flex-item" type="button" onclick="insert_value('-')">-</button>
+                <button id="btn_dot" class="flex-item" type="button" onclick="insert_value('.')">.</button>
+                <button id="btn_div" class="flex-item" type="button" onclick="insert_value('/')">/</button>
+                <button id="btn_1=0" class="flex-item" type="button" onclick="insert_value(0)">0</button>
+                <button id="btn_x" class="flex-item" type="button" onclick="insert_value('*')">x</button>
+                <button id="btn_reset" class="flex-item" type="button" onclick="reset()">RESET</button>
+                <button id="btn_equal" class="flex-item" type="button" onclick="calculate_value()">=</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
